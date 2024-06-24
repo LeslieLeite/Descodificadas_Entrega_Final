@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon"/>
+</head>
+<body  class="form">
+    <header class="header">
+        <img src="imagens/logo.jpeg" alt="Livro aberto com fundo azul e as letras L A L" class="header_logo">
+       
+        <nav id="itens_menu" class="header_nav">
+            <ul>
+                
+                <li><a href="http://127.0.0.1:5500/index.html">Inicio</a></li>
+                
+                
+            </ul>
+        </nav>
+
+
+    </header>
+    <h1 class="form">Dúvidas</h1>
+    <p class="form" >Envie suas dúvidas no formulário abaixo</p>
+    <form method="post" id="fContato" action="mailto:leslieleite@educa.santos.sp.gov.br" class="form">
+
+       <fieldset id="dados"><legend>Seus dados</legend>
+      <p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome"  size="25" placeholder="Nome"/></p>
+       <p><label for="cMail">  email:</label>  <input type="email" name="tMail" id="cMail"  size="25" placeholder="email"/></p>
+       </fieldset>
+
+       <fieldset id="duvida"><legend>Descreva sua dúvida</legend>
+        <p><label for="cDuvida"></label><textarea name="tDuvida" id="cDuvida" cols="50" rows="10" placeholder="Escreva aqui a sua dúvida"></textarea></p>
+        
+    
+       </fieldset>
+    
+    </form>
+
+    <footer>
+       
+        <p class="text_footer form_footer">Profª Leslie &copyDescodificadas 2024</p>
+    
+    </footer>
+        
+    
+</body>
+</html>

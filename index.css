@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #203E70;
+    
+}
+
+.header_logo {
+    width: 160px;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+
+.header_nav ul {
+    margin-right: 32px;
+    font-size: 16px;
+
+}
+.header_nav li {
+    display: inline-block;
+}
+
+ul {
+    margin: 0;
+}
+.header_nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.header_nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+    font-weight: bold;
+}
+
+.header_nav a:hover{
+    color: red;
+}
+
+.text {
+    text-transform: uppercase;
+    color: whitesmoke;
+       
+}
+
+.fundo {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    color: #CF63D0;
+}
+
+.fundo img {
+    margin-left: 1px;
+    margin-top: 7px;
+
+}
+
+
+.centro {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    text-align: center;
+    transition: (-50%,-50%);
+    padding: 10px;
+    font-size: 70px;
+    text-transform: uppercase;
+   
+
+}
+.texto {
+  
+    background-color: #0F2B53;
+    color: beige;
+}
+.texto h2 {
+    margin-top: 10px;
+    color: beige;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:30px ;
+}
+
+.principal {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.fonte {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: antiquewhite;
+    
+}
+
+.texto a:hover {
+    color: #2115ED;
+}
+
+footer {
+    background-color:color-mix(in srgb, #196BF0,white    30%);
+    padding: 10px;
+    text-align: center;
+
+}
+
+.text_footer {
+    color: #2115ED;
+    font-size: 25px;
+    
+}
+
+.form_footer{
+    margin-top: 95px;
+   
+   
+    
+}
+
+.form {
+    text-align: center;
+    background-color: #196BF0;
+}
+
+
+
+/*.imagem{
+    width:280px ;
+    height: 150px;
+    padding: 4px;
+    border: 2px solid black;
+    float: left; lado a lado
+    margin: 100pxtopo 11px/*esquerda 100px/baixo 8px direita;
+    border-radius: 10px;
+}*/
+
+

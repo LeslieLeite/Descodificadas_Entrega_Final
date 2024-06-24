@@ -1,0 +1,12 @@
+Os requisitos a serem incluídos são:
+
+Logotipo - OK
+Menu - OK
+Título destacado sobre o assunto do site com imagem do fundo - OK
+Trecho de texto com plano de fundo colorido - OK
+Botão com link interno ou externo
+Imagens com descrições
+Vídeo
+Mapa de localização - OK
+Formulário para coletar cadastro
+Rodapé com a frase criado por seu nome - OK
