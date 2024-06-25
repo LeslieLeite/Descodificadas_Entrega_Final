@@ -24,6 +24,7 @@
     </header>
     <h1 class="form">Dúvidas</h1>
     <p class="form" >Envie suas dúvidas no formulário abaixo</p>
+    <!--
     <form method="post" id="fContato" action="mailto:leslieleite@educa.santos.sp.gov.br" class="form">
 
        <fieldset id="dados"><legend>Seus dados</legend>
@@ -33,15 +34,39 @@
 
        <fieldset id="duvida"><legend>Descreva sua dúvida</legend>
         <p><label for="cDuvida"></label><textarea name="tDuvida" id="cDuvida" cols="50" rows="10" placeholder="Escreva aqui a sua dúvida"></textarea></p>
-        
+
     
        </fieldset>
+
+       <fieldset id="arquivo"><legend>Carregar arquivos</legend>
+        <input type="file" name="arquivos"><br><br>
+        <input type="file" name="arquivos"><br><br>
+        <input type="file" name="arquivos"><br><br>
+
+       </fieldset>
+       <fieldset id="fContato">
+        <label for="mensagem" ></label>
+        <input type="submit" name="acao" value="Enviar">
+
+
+       </fieldset>
+
+
     
+    </form> -->
+
+    <form action="https://formsubmit.co/leslieleite@educa.santos.sp.gov.br" method="Post">
+
+        <input type="text" name="Nome" required />
+        <input type="email" name="email" required />
+        <button type="submit">Enviar</button>
+
+
     </form>
 
-    <footer>
+    <footer class="form_footer">
        
-        <p class="text_footer form_footer">Profª Leslie &copyDescodificadas 2024</p>
+        <p class="text_footer">Profª Leslie &copyDescodificadas 2024</p>
     
     </footer>
         
