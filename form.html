@@ -22,40 +22,43 @@
 
 
     </header>
+    <!--
     <section>
     <h1 class="form">Dúvidas</h1>
     <p class="form" >Envie suas dúvidas no formulário abaixo</p>
-    <!--
-    <form method="post" id="fContato" action="mailto:leslieleite@educa.santos.sp.gov.br" class="form">
+    
+    <form action="https://api.staticforms.xyz/submit" method="post" enctype="application/x-www-form-urlencoded">
 
-       <fieldset id="dados"><legend>Seus dados</legend>
-      <p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome"  size="25" placeholder="Nome"/></p>
-       <p><label for="cMail">  email:</label>  <input type="email" name="tMail" id="cMail"  size="25" placeholder="email"/></p>
-       </fieldset>
+       <legend>Seus Dados</legend>
+      <p><label >Nome:</label> <input type="text" name="name" size="25" placeholder="Nome" required/></p>
+       <p><label>  email:</label>  <input type="email" name="email" size="25" placeholder="email" required/></p>
+       
 
-       <fieldset id="duvida"><legend>Descreva sua dúvida</legend>
-        <p><label for="cDuvida"></label><textarea name="tDuvida" id="cDuvida" cols="50" rows="10" placeholder="Escreva aqui a sua dúvida"></textarea></p>
+       <legend>Descreva sua dúvida</legend>
+        <p><label></label><textarea name="duvida" cols="50" rows="10" placeholder="Escreva aqui a sua dúvida" required></textarea></p>
 
     
-       </fieldset>
+       
 
-       <fieldset id="arquivo"><legend>Carregar arquivos</legend>
-        <input type="file" name="arquivos"><br><br>
-        <input type="file" name="arquivos"><br><br>
-        <input type="file" name="arquivos"><br><br>
+       <legend>Carregar arquivos</legend>
+        <input type="file"name="application"><br><br>
+        <input type="file" name="application"><br><br>
+        <input type="file" name="application"><br><br>
 
-       </fieldset>
-       <fieldset id="fContato">
-        <label for="mensagem" ></label>
+       
+       
+        <label></label>
         <input type="submit" name="acao" value="Enviar">
 
 
-       </fieldset>
-
+       
+       <input type="hidden" name="accessKey" value="7fab85e0-6e5e-45d4-9499-c5109e62af9f">
+       <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigada.html">
 
     
-    </form> -->
-
+    </form> 
+</section>
+-->
     <!--
     <form action="https://formsubmit.co/leslye.leite@gmail.com" method="Post">
 
@@ -78,25 +81,59 @@
 
     </form>
     -->
-        <form action="https://api.staticforms.xyz/submit" method="post">
-            <label>Nome</label>
-            <input type="text" name="name" placeholder="Escreva seu nome" required>
-            <label>Email</label>
-            <input type="email" name="email" placeholder="Escreva seu email" required>
-            <label >Mensagem</label>
-            <textarea name="message" cols="30" rows="10" placeholder="Escreva sua dúvida"></textarea>
+
+    <!--
+    <form action="https://api.staticforms.xyz/submit" method="post">
+            <fieldset><legend>Seus dados</legend>
+                <p><label >Nome:</label> <input type="text" name="name" size="25" placeholder="Nome" required/></p>
+                 <p><label>  email:</label>  <input type="email" name="email" size="25" placeholder="email" required/></p>
+                 </fieldset>
+          
+                 <fieldset><legend>Descreva sua dúvida</legend>
+                  <p><label></label><textarea name="duvida" cols="50" rows="10" placeholder="Escreva aqui a sua dúvida" required></textarea></p>
+          
+              
+                 </fieldset>
+          
+                 <fieldset><legend>Carregar arquivos</legend>
+                  <input type="file" name="arquivos"><br><br>
+                  <input type="file" name="arquivos"><br><br>
+                  <input type="file" name="arquivos"><br><br>
             <button  type="submit">Enviar</button>
 
             <input type="hidden" name="accessKey" value="7fab85e0-6e5e-45d4-9499-c5109e62af9f">
-            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigada.html">
 
 
         </form>
 
-
-
-
 </section>
+-->
+
+<!--ESSE FUNCIONA SEM ADICIONAR ARQUIVOS-->
+
+    <section>
+        
+<form action="https://api.staticforms.xyz/submit" method="post" enctype="application/x-www-form-urlencoded">
+    <label>Nome</label>
+    <input type="text" name="name" placeholder="Escreva seu nome" required>
+    <label>Email</label>
+    <input type="email" name="email" placeholder="Escreva seu email" required>
+    <label >Mensagem</label>
+    <textarea name="message" cols="30" rows="10" placeholder="Escreva sua dúvida" required></textarea>
+    
+    <button  type="submit">Enviar</button>
+
+    <input type="hidden" name="accessKey" value="7fab85e0-6e5e-45d4-9499-c5109e62af9f">
+    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigada.html">
+
+
+</form>
+
+
+    
+</section>
+
 
     <footer class="form_footer">
        
