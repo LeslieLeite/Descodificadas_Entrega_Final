@@ -130,18 +130,51 @@ footer {
 }
 
 .form_footer{
-    margin-top: 95px;
-   
-   
-    
+    margin-top: 142px;
+      
 }
+
+.form h1 {
+    color: #203E70;
+    margin-top: 100px;
+}
+
 
 .form {
     text-align: center;
     background-color: #196BF0;
 }
 
+.mensagem {
+    margin-left: 120px;
+}
 
+.button {
+    background-color:  #203E70;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.obrigada {
+    text-align: center;
+   background-color: #196BF0;
+    
+}
+
+.obrigada_h1 {
+    margin-top: 200px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+}
+.obrigada_p {
+    color: white;
+    font-size: 25px;
+}
+.obrigada_footer {
+    margin-top: 275px;
+}
 
 /*.imagem{
     width:280px ;
