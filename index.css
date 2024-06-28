@@ -116,6 +116,36 @@ ul {
     color: #2115ED;
 }
 
+.imagem {
+    background-color: #196BF0;
+}
+
+div {  
+    display: inline-block;
+   
+    
+            
+}
+.imagem img {
+    border-radius: 5px;
+}
+
+
+ .imagem h2 {
+    text-align: center;
+ }
+#direita {
+    margin-left: 60px;
+    text-align: center;
+}
+
+#esquerda{
+    margin-left: 300px;
+    text-align: center;
+}
+
+
+
 footer {
     background-color:color-mix(in srgb, #196BF0,white    30%);
     padding: 10px;
@@ -130,50 +160,29 @@ footer {
 }
 
 .form_footer{
-    margin-top: 142px;
+    margin-top: 95px;
       
 }
-
-.form h1 {
-    color: #203E70;
-    margin-top: 100px;
-}
-
 
 .form {
     text-align: center;
     background-color: #196BF0;
 }
 
-.mensagem {
-    margin-left: 120px;
-}
-
-.button {
-    background-color:  #203E70;
-    color: white;
-    padding: 10px;
-    font-size: 15px;
-}
-
 .obrigada {
     text-align: center;
-   background-color: #196BF0;
+   background-color: aquamarine;
     
 }
 
-.obrigada_h1 {
-    margin-top: 200px;
+.obrigada h1 {
+   
     text-transform: uppercase;
-    color: white;
-    font-size: 40px;
+    color: #2115ED;
 }
-.obrigada_p {
-    color: white;
-    font-size: 25px;
-}
+
 .obrigada_footer {
-    margin-top: 275px;
+    margin-top: 480px;
 }
 
 /*.imagem{
