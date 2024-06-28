@@ -134,10 +134,7 @@ ul {
 }
 
 div {  
-    display: inline-block;
-   
-    
-            
+    display: inline-block;          
 }
 .imagem img {
     border-radius: 5px;
@@ -257,8 +254,6 @@ html {
     margin-left: 1300px;
     margin-top: 10px;
     
-
-
  }
 
  h1 {
