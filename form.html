@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon"/>
 </head>
-<body  class="form">
+<body class="body_form">
     <header class="header">
         <img src="imagens/logo.jpeg" alt="Livro aberto com fundo azul e as letras L A L" class="header_logo">
        
@@ -25,9 +25,10 @@
   
 <!--ESSE FUNCIONA SEM ADICIONAR ARQUIVOS-->
 
-    <section>
+    <section class="form"   >
         
-<form action="https://api.staticforms.xyz/submit" method="post" enctype="application/x-www-form-urlencoded">
+<form  class="form"  action="https://api.staticforms.xyz/submit" method="post" enctype="application/x-www-form-urlencoded">
+    <h1>Descreva suas dúvidas</h1>
     <label>Nome</label>
     <input type="text" name="name" placeholder="Escreva seu nome" required>
     <label>Email</label>
@@ -38,7 +39,7 @@
     <button  type="submit">Enviar</button>
 
     <input type="hidden" name="accessKey" value="7fab85e0-6e5e-45d4-9499-c5109e62af9f">
-    <input type="hidden" name="redirectTo" value="obrigada.html">
+    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigada.html">
 
 
 </form>
