@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #714EB6;
+    background-color: #60419F;
     position: sticky;
     top: 0;
     
@@ -157,7 +157,7 @@ div {
 
 
 footer {
-    background-color:color-mix(in srgb, #196BF0,white    30%);
+    background-color:#60419F;
     padding: 10px;
     text-align: center;
 
